@@ -51,7 +51,7 @@ const Hero = () => {
   return (
     <>
    <section id="home" className=" pb-20  md:pt-10 xl:pb-25 xl:pt-1 relative" >
-  <div className="pt-7 sm:pt-16 lg:pt-20 mx-auto w-full h-full">
+  <div className="pt-7 sm:pt-16 lg:pt-20 mx-auto w-full h-full ">
     <div className=" md:block scale-95 rounded-lg relative">
       <Slider {...settings} className="">
         {images.map((image, index) => {
@@ -108,7 +108,7 @@ const Hero = () => {
         })}
       </Slider>
     </div>
-    <div className="block md:hidden scale-95 rounded-lg pt-6 relative">
+    {/* <div className="block md:hidden scale-95 rounded-lg pt-6 relative">
       <Slider {...settings} arrows={false} className="">
         {mobileImages.map((image, index) => {
           return (
@@ -124,7 +124,7 @@ const Hero = () => {
           );
         })}
       </Slider>
-    </div>
+    </div> */}
   </div>
 </section>
 
@@ -154,7 +154,7 @@ const Hero = () => {
 
 
 
-{/* 
+
 <section>
 
 <div className="grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4 p-10 xl:-mt-30">
@@ -247,7 +247,7 @@ const Hero = () => {
 </div>
 </section>
 
- */}
+
 
 
 
